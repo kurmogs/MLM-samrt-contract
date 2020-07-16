@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+// import Ownable from '../src/build/contracts/Ownable.json'
+// import MyEtherClub from '../src/build/contracts/MyEtherClub.json'
+// import Web3 from 'web3';
+// import SignIn from './SignIn'
+// import SignUp from './SignUp'
+import Album from './Main'
+// import Smart from './Contract'
+// import Dashboard from './Dashboard';
+// import Dashboard from './Dashboard'
+// import utils from 'ethereumjs-util';
 
-function App() {
+class App extends Component {
+// constructor(){
+//   super()
+//   this.state={
+//     show:true
+//   }
+// }
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+    
+    
+
+  
+ {/* <Dashboard></Dashboard> */}
+{/* <Smart></Smart> */}
+<Album></Album>
     </div>
   );
 }
-
+}
 export default App;
